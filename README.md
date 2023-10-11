@@ -1,5 +1,12 @@
 # Desafio de Impostos
 
+## índice
+1. [Problema](#problema)
+2. [Pontos que daremos mais atenção](#pontos_atencao)
+3. [Pontos que não iremos avaliar](#pontos_sem_avaliacao)
+4. [Sobre a documentação](#about_docs)
+
+### <a name="problema">Problema</a>
 Você foi designado para construir uma API REST capaz de calcular o preço tarifado de um produto de seguros com base no preço base informado.
 O cálculo deve ocorrer sempre que um produto for criado ou alterado com base em sua tributação.
 Para isto é necessário considerar as informações abaixo.
@@ -63,9 +70,9 @@ Seguro de Vida com preço informado de **R$ 100.00**
 
 Seguro Auto com preço informado de **R$ 50.00**
 
-**Preço tarifado**: 50.00 + (50.00 x 0.0055) + (50.00 x 0.04) + (50.00 x 0.01) = R$ 106,00
+**Preço tarifado**: 50.00 + (50.00 x 0.055) + (50.00 x 0.04) + (50.00 x 0.01) = R$ 55,25
 
-### Pontos que daremos mais atenção
+### <a name="pontos_atencao">Pontos que daremos mais atenção</a>
 - Testes de unidade e integração
 - Arquitetura utilizada
 - Abstração, acoplamento, extensibilidade e coesão
@@ -75,12 +82,12 @@ Seguro Auto com preço informado de **R$ 50.00**
 - Documentação da Solução no README.md
 - Observabilidade
 
-### Pontos que não iremos avaliar
+### <a name="pontos_sem_avaliacao">Pontos que não iremos avaliar</a>
 - Dockerfile
 - Scripts CI/CD
 - Collections do Postman, Insomnia ou qualquer outra ferramenta para execução
 
-### Sobre a documentação
+### <a name="about_docs">Sobre a documentação</a>
 Nesta etapa do processo seletivo queremos entneder as decisões por trás do código, portanto é fundamental que o README.md tenha algumas informações referentes a sua solução.
 Algumas dicas do que esperamos ver são:
 - Instruções básicas de como executar o projeto
