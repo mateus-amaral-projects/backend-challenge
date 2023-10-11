@@ -52,9 +52,11 @@ Os impostos devem ser aplicados da seguinte forma:
 
 
 **Fórmula**
+
 Preço Tarifado = Preço Base + (Preço Base x IOF) + (Preço Base x PIS) + (Preço Base x COFINS)
 
 **Exemplos**
+
 Seguro de Vida com preço informado de **R$ 100.00**
 
 **Preço tarifado**: 100.00 + (100.00 x 0.01) + (100.00 x 0.02) + (100.00 x 0.03) = R$ 106,00
