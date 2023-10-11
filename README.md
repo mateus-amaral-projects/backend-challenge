@@ -51,7 +51,9 @@ Os produtos de seguros podem pertencer as seguintes categorias:
 - VIAGEM
 - RESIDENCIAL
 - PATRIMONIAL
+- 
 Os impostos devem ser aplicados da seguinte forma:
+
 
 | **Categoria** | **Imposto sobre Operação Finaneira (IOF)** | **Programa de Integração Social (PIS)** | **Contribuição para o Financiamento da Seguridade Social (COFINS)** |
 |---------------|--------------------------------------------|-----------------------------------------|----------------------------------------------------------------|
