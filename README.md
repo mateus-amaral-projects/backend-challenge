@@ -56,9 +56,11 @@ Preço Tarifado = Preço Base + (Preço Base x IOF) + (Preço Base x PIS) + (Pre
 
 **Exemplos**
 Seguro de Vida com preço informado de **R$ 100.00**
+
 **Preço tarifado**: 100.00 + (100.00 x 0.01) + (100.00 x 0.02) + (100.00 x 0.03) = R$ 106,00
 
 Seguro Auto com preço informado de **R$ 50.00**
+
 **Preço tarifado**: 50.00 + (50.00 x 0.0055) + (50.00 x 0.04) + (50.00 x 0.01) = R$ 106,00
 
 ### Pontos que daremos mais atenção
