@@ -8,6 +8,7 @@
 
 ### <a name="problema">Problema</a>
 Você foi designado para construir uma API REST capaz de calcular o preço tarifado de um produto de seguros com base no preço base informado.
+
 O cálculo deve ocorrer sempre que um produto for criado ou alterado com base em sua tributação.
 
 Para isto é necessário considerar as informações abaixo.
