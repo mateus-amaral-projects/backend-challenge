@@ -105,4 +105,4 @@ Se tiver algum imprevisto, dúvida ou problema, por favor entre em contato com a
 
 Atualmente trabalhamos com a stack Java/Spring, porém você pode utilizar a tecnologia de sua preferência.
 
-Para candidatos do externos nos envie o link de um repositório público com a sua solução e para candidatos internos o projeto em formato .zip
+Para candidatos externos nos envie o link de um repositório público com a sua solução e para candidatos internos o projeto em formato .zip
