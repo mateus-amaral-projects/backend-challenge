@@ -9,6 +9,7 @@
 ### <a name="problema">Problema</a>
 Você foi designado para construir uma API REST capaz de calcular o preço tarifado de um produto de seguros com base no preço base informado.
 O cálculo deve ocorrer sempre que um produto for criado ou alterado com base em sua tributação.
+
 Para isto é necessário considerar as informações abaixo.
 Todo produto deve ter os atributos:
 - ID
@@ -40,7 +41,9 @@ Todo produto deve ter os atributos:
 ```
 
 Após o cálculo é necessário salvar ou atualizar o produto em uma base de dados de sua preferência (SQL ou NoSQL, podendo ser inclusive um banco de dados em memória como H2 ou HSQLDB).
+
 O preço tarifado deve ser calculado pela API e ignorado caso seja enviado através da requisição, ou seja, caso o corpo da requisição contenha o campo preço tarifado, o mesmo deve ser ignorado.
+
 Os produtos de seguros podem pertencer as seguintes categorias:
 - VIDA
 - AUTO
@@ -89,6 +92,7 @@ Seguro Auto com preço informado de **R$ 50.00**
 
 ### <a name="about_docs">Sobre a documentação</a>
 Nesta etapa do processo seletivo queremos entneder as decisões por trás do código, portanto é fundamental que o README.md tenha algumas informações referentes a sua solução.
+
 Algumas dicas do que esperamos ver são:
 - Instruções básicas de como executar o projeto
 - Detalhes sobre a solução, gostaríamos de saber qual foi o seu racional nas decisões
@@ -96,6 +100,9 @@ Algumas dicas do que esperamos ver são:
 
 ### Como esperamos receber sua solução
 Esta etapa é elimintória, e por isso esperamos que o código reflita essa importância.
+
 Se tiver algum imprevisto, dúvida ou problema, por favor entre em contato com a gente, estamos aqui para ajudar.
+
 Atualmente trabalhamos com a stack Java/Spring, porém você pode utilizar a tecnologia de sua preferência.
+
 Para candidatos do externos nos envie o link de um repositório público com a sua solução e para candidatos internos o projeto em formato .zip
