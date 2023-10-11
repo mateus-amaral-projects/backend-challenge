@@ -94,15 +94,15 @@ Seguro Auto com preço informado de **R$ 50.00**
 - Collections do Postman, Insomnia ou qualquer outra ferramenta para execução
 
 ### <a name="about_docs">Sobre a documentação</a>
-Nesta etapa do processo seletivo queremos entneder as decisões por trás do código, portanto é fundamental que o README.md tenha algumas informações referentes a sua solução.
+Nesta etapa do processo seletivo queremos entender as decisões por trás do código, portanto é fundamental que o README.md tenha algumas informações referentes a sua solução.
 
 Algumas dicas do que esperamos ver são:
 - Instruções básicas de como executar o projeto
 - Detalhes sobre a solução, gostaríamos de saber qual foi o seu racional nas decisões
-- Caso algo não esteja claro e você precisou assumir alguma premissa, quais foram e o que te motivou a tomar essas decisões;
+- Caso algo não esteja claro e você precisou assumir alguma premissa, quais foram e o que te motivou a tomar essas decisões
 
 ### Como esperamos receber sua solução
-Esta etapa é elimintória, e por isso esperamos que o código reflita essa importância.
+Esta etapa é eliminatória, e por isso esperamos que o código reflita essa importância.
 
 Se tiver algum imprevisto, dúvida ou problema, por favor entre em contato com a gente, estamos aqui para ajudar.
 
