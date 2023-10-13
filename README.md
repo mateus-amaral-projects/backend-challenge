@@ -83,6 +83,7 @@ Seguro Auto com preço informado de **R$ 50.00**
 - Arquitetura utilizada
 - Abstração, acoplamento, extensibilidade e coesão
 - Profundidade na utilização de Design Patterns
+- Clean Architecture
 - Clean Clode
 - SOLID
 - Documentação da Solução no README.md
