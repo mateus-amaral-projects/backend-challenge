@@ -1,17 +1,21 @@
-# Desafio de Impostos
+# Desafio Produtos de Seguros 🚀
 
-## índice
-1. [Problema](#problema)
-2. [Pontos que daremos mais atenção](#pontos_atencao)
-3. [Pontos que não iremos avaliar](#pontos_sem_avaliacao)
-4. [Sobre a documentação](#about_docs)
+## Resumo
+* [Desafio](#desafio)
+    * [Pontos que daremos mais atenção](#pontos_atencao)
+    * [Pontos que não iremos avaliar](#pontos_sem_avaliacao)
+    * [Observações importantes](#observacoes)
+* [Sobre a documentação](#about_docs)
+    * [Como esperamos receber sua solução](#como_esperamos_receber)
+* [Dicas](#dicas)
 
-### <a name="problema">Problema</a>
-Você foi designado para construir uma API REST capaz de calcular o preço tarifado de um produto de seguros com base no preço base informado.
+### <a name="desafio">Desafio</a>
+Você foi designado para construir uma API REST capaz de calcular o preço tarifado de um produto de seguros a partir do preço base informado.
 
-O cálculo deve ocorrer sempre que um produto for criado ou alterado com base em sua tributação.
+O cálculo deve ocorrer durante a criação ou alteração do produto com base em sua tributação.
 
 Para isto é necessário considerar as informações abaixo.
+
 Todo produto deve ter os atributos:
 - ID
 - Nome
@@ -66,7 +70,7 @@ Os impostos devem ser aplicados da seguinte forma:
 
 **Fórmula**
 
-Preço Tarifado = Preço Base + (Preço Base x IOF) + (Preço Base x PIS) + (Preço Base x COFINS)
+**Preço Tarifado** = Preço Base + (Preço Base x IOF) + (Preço Base x PIS) + (Preço Base x COFINS)
 
 **Exemplos**
 
@@ -94,7 +98,7 @@ Seguro Auto com preço informado de **R$ 50.00**
 - Scripts CI/CD
 - Collections do Postman, Insomnia ou qualquer outra ferramenta para execução
 
-### <a name="about_docs">Sobre a documentação</a>
+## <a name="about_docs">Sobre a documentação</a>
 Nesta etapa do processo seletivo queremos entender as decisões por trás do código, portanto é fundamental que o README.md tenha algumas informações referentes a sua solução.
 
 Algumas dicas do que esperamos ver são:
@@ -102,7 +106,7 @@ Algumas dicas do que esperamos ver são:
 - Detalhes sobre a solução, gostaríamos de saber qual foi o seu racional nas decisões
 - Caso algo não esteja claro e você precisou assumir alguma premissa, quais foram e o que te motivou a tomar essas decisões
 
-### Como esperamos receber sua solução
+### <a name="como_esperamos_receber">Como esperamos receber sua solução</a>
 Esta etapa é eliminatória, e por isso esperamos que o código reflita essa importância.
 
 Se tiver algum imprevisto, dúvida ou problema, por favor entre em contato com a gente, estamos aqui para ajudar.
@@ -110,3 +114,21 @@ Se tiver algum imprevisto, dúvida ou problema, por favor entre em contato com a
 Atualmente trabalhamos com a stack Java/Spring, porém você pode utilizar a tecnologia de sua preferência.
 
 Para candidatos externos nos envie o link de um repositório público com a sua solução e para candidatos internos o projeto em formato .zip
+
+### <a name="observacoes">Observações importantes</a>
+
+Não é necessário parametrizar os impostos em arquivos de configuração ou persisti-los em base de dados. Para este desafio os mesmos podem ser utilizados como constantes. 
+Os campos a serem persistidos devem ser somente os informados no <a name="desafio">desafio</a>
+
+## <a name="dicas">Dicas</a>
+
+Aqui vão algumas dicas que podem ser úteis.
+
+### <a name="testes">Testes</a>
+Como dica deixamos este artigo rápido sobre testes [Testing Strategies in a Microservice Architecture](https://martinfowler.com/articles/microservice-testing/).
+
+Nele é possível ver a diferença entre os principais tipo de teste.
+
+<img src="assets/img/piramide.png" alt="Piramide" title="Piramide">
+
+Também há um exemplo para cada tipo de teste no artigo que pode ajudar no desafio.
