@@ -132,3 +132,5 @@ Nele é possível ver a diferença entre os principais tipo de teste.
 <img src="assets/img/piramide.png" alt="Piramide" title="Piramide">
 
 Também há um exemplo para cada tipo de teste no artigo que pode ajudar no desafio.
+
+<img src="assets/img/tipos_teste.png" alt="Tipos de Teste" title="Tipos de Teste">
