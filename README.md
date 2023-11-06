@@ -84,6 +84,7 @@ Seguro Auto com preço informado de **R$ 50.00**
 
 ### <a name="pontos_atencao">Pontos que daremos mais atenção</a>
 - Testes de unidade e integração
+- Cobertura de testes (Code Coverage)
 - Arquitetura utilizada
 - Abstração, acoplamento, extensibilidade e coesão
 - Profundidade na utilização de Design Patterns
@@ -91,7 +92,7 @@ Seguro Auto com preço informado de **R$ 50.00**
 - Clean Clode
 - SOLID
 - Documentação da Solução no README.md
-- Observabilidade
+- Observabilidade (métricas, traces e logs)
 
 ### <a name="pontos_sem_avaliacao">Pontos que não iremos avaliar</a>
 - Dockerfile
@@ -117,17 +118,17 @@ Para candidatos externos nos envie o link de um repositório público com a sua 
 
 ### <a name="observacoes">Observações importantes</a>
 
-Não é necessário parametrizar os impostos em arquivos de configuração ou persisti-los em base de dados. Para este desafio os mesmos podem ser utilizados como constantes. 
-Os campos a serem persistidos devem ser somente os informados no <a name="desafio">desafio</a>
+Não é necessário parametrizar os impostos em arquivos de configuração ou persisti-los em base de dados.
+Os campos a serem persistidos devem ser somente os informados no <a name="desafio">desafio</a>.
 
 ## <a name="dicas">Dicas</a>
 
 Aqui vão algumas dicas que podem ser úteis.
 
 ### <a name="testes">Testes</a>
-Como dica deixamos este artigo rápido sobre testes [Testing Strategies in a Microservice Architecture](https://martinfowler.com/articles/microservice-testing/).
+Como item opcional de leitura, deixamos este artigo rápido sobre testes [Testing Strategies in a Microservice Architecture](https://martinfowler.com/articles/microservice-testing/).
 
-Nele é possível ver a diferença entre os principais tipo de teste.
+Nele é possível ver a diferença entre os principais tipos de teste.
 
 <img src="assets/img/piramide.png" alt="Piramide" title="Piramide">
 
