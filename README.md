@@ -89,7 +89,7 @@ Seguro Auto com preço informado de **R$ 50.00**
 - Abstração, acoplamento, extensibilidade e coesão
 - Profundidade na utilização de Design Patterns
 - Clean Architecture
-- Clean Clode
+- Clean Code
 - SOLID
 - Documentação da Solução no README.md
 - Observabilidade (métricas, traces e logs)
