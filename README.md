@@ -1,17 +1,15 @@
 # Desafio Produtos de Seguros 
 
-Projeto de implementação de serviço REST baseado nas idéias e conceitos do livro "Arquitetura Limpa" do autor [Robert C. Martin (Uncle Bob)](https://pt.wikipedia.org/wiki/Robert_Cecil_Martin) com o objetivo de atender aos requisitos do desafio do produto de seguros conforme descrito no arquivo <a name="/README_Desafio.md">README do Desafio</a>.
+Projeto de implementação de serviço REST baseado nas idéias e conceitos do livro "Arquitetura Limpa" do autor [Robert C. Martin (Uncle Bob)](https://pt.wikipedia.org/wiki/Robert_Cecil_Martin) com o objetivo de atender aos requisitos do desafio do produto de seguros conforme descrito no arquivo <a name="README_Desafio.md">README do Desafio</a>.<br>
 
 <div style="text-align: center;">
 	<img align="center" width="386" height="283" src="assets/img/arquitetura-limpa-1.jpg" alt="Arquitetura Limpa" title="Arquitetura Limpa">
 	<img align="center" width="386" height="275" src="assets/img/arquitetura-limpa-2.jpg" alt="Arquitetura Limpa" title="Arquitetura Limpa">
-</div>
-<p style="text-align: center;>
 
 Fontes, Créditos e Referências:
 [Uma breve introdução à arquitetura limpa](https://www.freecodecamp.org/portuguese/news/uma-breve-introducao-a-arquitetura-limpa/)
 
-</p>
+</div>
 
 ## Índice
 
@@ -40,25 +38,25 @@ Para que seja possível consumir o projeto é necessário este ambiente mínimo:
 Abra o terminal no sistema operacional local:
 
 ```
-	No Ubuntu "Ctrl + Alt + T", no Windows "WINDOWS + R" e, em seguida, digite "cmd.exe". No MacOS pressione "Command + Espaço". 
+No Ubuntu "Ctrl + Alt + T", no Windows "WINDOWS + R" e, em seguida, digite "cmd.exe". No MacOS pressione "Command + Espaço". 
 ```
 
 [Clone](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository) o repositório:
 
 ```
-	git clone https://github.com/mateus-amaral-projects/backend-challenge.git
+git clone https://github.com/mateus-amaral-projects/backend-challenge.git
 
 ```
 Construa o arquivo do projeto:
 
 ```
-	mvn clean package
+mvn clean package
 
 ```
 Inicialize o projeto (Localize o artefato na pasta target; Em sistemas Windows, caso seja solicitado, forneça as permissões de firewall):
 
 ```
-	java -jar backend-challenge-0.0.1-SNAPSHOT.jar
+java -jar backend-challenge-0.0.1-SNAPSHOT.jar
 
 ```
 ## <a name="como-executar-os-testes">Como executar os testes</a>
@@ -66,7 +64,7 @@ Inicialize o projeto (Localize o artefato na pasta target; Em sistemas Windows, 
 Para executar os testes unitários e de integração:
 
 ```
-	mvn test
+mvn test
 
 ```
 
@@ -79,9 +77,9 @@ curl --request POST \
   --url http://localhost:8080/v1/seguros/produto \
   --header 'Content-Type: application/json' \
   --data '{
-	 	"nome": "Seguro de Vida Padrão",
-    	"categoria": "VIDA",
-    	"preco_base": 50
+	  "nome": "Seguro de Vida Padrão",
+   	  "categoria": "VIDA",
+   	  "preco_base": 50
 	}'
 
 ```
@@ -93,10 +91,10 @@ curl --request POST \
   --url http://localhost:8080/v1/seguros/produto \
   --header 'Content-Type: application/json' \
   --data '{
-    	"id": "a0fe6d7d-b857-4e64-8e04-f4b167bb2a94",
-	 	"nome": "Seguro de Vida Coletivo",
-    	"categoria": "VIDA",
-    	"preco_base": 799.90
+     "id": "a0fe6d7d-b857-4e64-8e04-f4b167bb2a94",
+	  "nome": "Seguro de Vida Coletivo",
+     "categoria": "VIDA",
+     "preco_base": 799.90
 	}'
 ```
 
@@ -158,17 +156,6 @@ O fluxo de trabalho ocorre da seguinte forma:
 	exemplo, JSON) e a envia de volta ao cliente como uma resposta HTTP. Um detalhe importante de mencionar é que a abstração do caso de 
 	uso recebe a implementação adequada na infraestrutura, em tempo de execução, pela configuração de injeção de dependência da nossa 
 	aplicação.
-
-	
-	
-
-	
-
-	
-
-
-
-
 
 ## <a name="licença">Licença</a>
 
