@@ -1,6 +1,6 @@
 # Desafio Produtos de Seguros 
 
-Projeto de implementação de serviço REST baseado nas idéias e conceitos do livro "Arquitetura Limpa" do autor [Robert C. Martin (Uncle Bob)](https://pt.wikipedia.org/wiki/Robert_Cecil_Martin) com o objetivo de atender aos requisitos do desafio do produto de seguros conforme descrito no arquivo <a name="README_Desafio.md">README do Desafio</a>.<br>
+Projeto de implementação de serviço REST baseado nas idéias e conceitos do livro "Arquitetura Limpa" do autor [Robert C. Martin (Uncle Bob)](https://pt.wikipedia.org/wiki/Robert_Cecil_Martin) com o objetivo de atender aos requisitos do desafio do produto de seguros conforme descrito no arquivo [README do Desafio](https://github.com/mateus-amaral-projects/backend-challenge/blob/main/README_Desafio.md).<br>
 
 <div style="text-align: center;">
 	<img align="center" width="386" height="283" src="assets/img/arquitetura-limpa-1.jpg" alt="Arquitetura Limpa" title="Arquitetura Limpa">
